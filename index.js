@@ -3,7 +3,6 @@ import dotenv from 'dotenv';
 import conectarDB from './config/db.js';
 import veterinarioRoutes from './routes/veterinarioRoutes.js';
 import pacienteRoutes from './routes/pacienteRoutes.js';
-import cors from 'cors';
 
 const app = express();
 
