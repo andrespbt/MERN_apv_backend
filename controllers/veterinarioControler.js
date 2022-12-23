@@ -85,6 +85,8 @@ const autenticar = async (req, res) => {
       _id: usuario._id,
       nombre: usuario.nombre,
       email: usuario.email,
+      telefono: usuario.telefono,
+      web: usuario.web,
       token: generarJWT(usuario.id)
     });
   } else {
